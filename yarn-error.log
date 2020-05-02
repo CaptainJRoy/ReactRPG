@@ -1,0 +1,61 @@
+Arguments: 
+  /Users/miguelj/.nvm/versions/node/v12.14.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add react-redux
+
+PATH: 
+  /Users/miguelj/.nvm/versions/node/v12.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/miguelj/.nvm/versions/node/v12.14.0/bin:/Users/miguelj/Library/Python/2.7/bin:/Users/miguelj/dev/flutter/bin:/Users/miguelj/Library/Python/2.7/bin:/Users/miguelj/dev/flutter/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND artifactory.cmdb.inhouse.paddypower.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "reactrpg",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-scripts": "3.4.1",
+      "redux": "^4.0.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
